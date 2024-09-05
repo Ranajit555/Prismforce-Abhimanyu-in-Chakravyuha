@@ -51,5 +51,23 @@ int main(){
     while(n--){
         solved();
     }
-	return 0;
+    return 0;
 }
+
+// input -->
+// number of input(n)=2
+// test case1:
+//   power of enemy: 3 6 8 6 5 9 10 3 2 8 7
+//   initial power=28 
+//   skip=2 
+//   regenerate=2
+//   output--> success	
+	
+// test case2:
+//   power of enemy: 9 5 7 8 9 7 4 2 6 12 3
+//   initial power=17
+//   skip=1
+//   regenerate=2	
+//   output--> fail	
+	
+	
